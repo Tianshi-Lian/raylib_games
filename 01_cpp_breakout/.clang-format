@@ -1,0 +1,37 @@
+---
+# options: https://clang.llvm.org/docs/ClangFormatStyleOptions.html
+BasedOnStyle: LLVM
+IndentWidth: 4
+ColumnLimit: 128
+UseTab: Never
+UseCRLF: false
+AccessModifierOffset: -4
+
+AlignAfterOpenBracket: BlockIndent
+AlignOperands: Align
+AlignTrailingComments: true
+AllowShortEnumsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: false
+AllowShortIfStatementsOnASingleLine: false
+AlwaysBreakTemplateDeclarations : Yes
+#BreakBeforeBraces: Stroustrup
+ContinuationIndentWidth: 4
+InsertBraces: true
+PointerAlignment: Left
+SpaceAfterCStyleCast: false
+
+#BasedOnStyle: LLVM
+#Language: Cpp
+#ColumnLimit: 128
+#AccessModifierOffset: -4
+#IndentWidth: 4
+#UseTab: Never
+#UseCRLF: false
+#AlignEscapedNewlines: Left
+#AllowShortFunctionsOnASingleLine: Empty
+#AllowShortLambdasOnASingleLine: Empty
+#AllowShortFunctionsOnASingleLine: Empty
+#AlwaysBreakTemplateDeclarations: true
+#BreakConstructorInitializers: BeforeComma
+#IndentPPDirectives: AfterHash
+#PointerAlignment: Left
